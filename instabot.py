@@ -17,7 +17,7 @@ class InstagramBot:
     def __init__(self, username, password):
         self.username = username
         self.password = password
-        self.driver = webdriver.Firefox(executable_path=r'D:\DevProjects\PythonApps\geckodriver.exe')
+        self.driver = webdriver.Firefox(executable_path=r'D:\DevProjects\PythonApps\geckodriver.exe') #Edit with your directory where geckodriver is stored
 
     def closeBrowser(self):
         self.driver.close()
